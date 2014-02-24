@@ -9,5 +9,5 @@ Forks a web server that serves metrics on `localhost:8001`.
 ## Usage
 
     cabal sandbox init
-    cabal install
+    cabal install -j
     cabal run
